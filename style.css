@@ -1,0 +1,41 @@
+.titulo {
+    text-align: center;
+    color: #e41111;
+}
+
+.contenedor-tabla {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.tabla {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 80%; /* Ancho de la tabla ajustado según necesidades */
+}
+
+.tabla td {
+    background-color: #a2aab3; /* Color de fondo para las celdas normales */
+    color: #000000; /* Color de texto negro para las celdas normales */
+    border: 1px solid #a4aaaf;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla th {
+    background-color: #0f1cc7; /* Color de fondo para las celdas de encabezado */
+    color: #ffffff; /* Color de texto blanco para las celdas de encabezado */
+    border: 1px solid #a4aaaf;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla tr.encabezados td {
+    background-color: #007bff; /* Color de fondo para la fila de encabezados */
+    color: #ffffff; /* Color de texto blanco para la fila de encabezados */
+}
+
+.tabla td {
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
